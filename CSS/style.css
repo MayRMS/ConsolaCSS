@@ -1,0 +1,745 @@
+body{
+    height: 100vh;   
+    width: 100vw; 
+    background-image: linear-gradient(to bottom right, rgb(255, 0, 208), rgb(0, 255, 242));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#gen-container{
+    height: 40%;
+    width: 50%;
+    display: flex;
+}
+/* MANDO IZQUIERDO*/
+#left-side{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 5px 5px 0px;
+}
+/* MANDO IZQUIERDO - SELECT */
+#left-side-select{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    border-radius: 40%;
+}
+
+#left-side-corner-top{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(9, 187, 226);
+    border-radius: 70% 0% 0% 0%;
+    box-shadow: 15px 0px 0px 0px rgb(8, 124, 150) inset, -10px -9px 0px -6px rgb(62, 60, 60);
+}
+
+#left-side-select-button-container{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(9, 187, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 5px 0px 0px;
+}
+#left-side-select-button{
+    width: 30%;
+    height: 10%;
+    background-color: black;
+    border-radius: 10%;
+    margin-left: 30%;
+    box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.383), 1px 1px 2px 1px inset rgb(97, 93, 93);
+}
+/* MANDO IZQUIERDO - JOYSTICK */
+#left-side-joystick-container{
+    height: 20%;
+    width: 100%;
+    background-color:rgb(9, 187, 226);
+    display: flex;
+    justify-content: center;
+    box-shadow: 15px 0px 0px 0px rgb(8, 124, 150) inset;
+
+
+}
+#left-side-joystick-spec{
+    height: 70%;
+    width: 45%;
+    background-color: rgb(9, 187, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-side-joystick{
+    height: 95%;
+    width: 95%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 4px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+}
+
+#left-side-joystick-mark{
+    height: 75%;
+    width: 75%;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid rgb(102, 94, 94);
+    
+}
+/* MANDO IZQUIERDO - CRUCETA */
+
+#left-side-cross-container{
+    height: 20%;
+    width: 100%;
+    background-color:rgb(9, 187, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 0px 0px 0px rgb(8, 124, 150) inset;
+}
+#left-side-cross-spec{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#left-cross-top-container{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+#left-cross-top-left{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+#left-cross-top-mid{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-cross-top-mid-button{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: rgb(22, 20, 20);
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#left-cross-top-right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+
+/* MANDO IZQUIERDO - CRUCETA- botones medio */
+
+#left-cross-mid-container{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#left-cross-mid-left{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-cross-mid-left-button-left{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: rgb(22, 20, 20);
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-cross-mid-mid{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-cross-mid-right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-cross-mid-left-button-right{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: rgb(22, 20, 20);
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* MANDO IZQUIERDO - CRUCETA- botones abajo */
+
+#left-cross-bot-container{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#left-cross-bot-left{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+#left-cross-bot-mid{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-cross-bot-mid-button{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: rgb(22, 20, 20);
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    width: 100%;
+    height: 100%;
+}
+
+#left-cross-bot-right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+
+/* MANDO IZQUIERDO - CAPTURE */
+#left-side-capture{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+#left-side-capture-left{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(9, 187, 226);
+    box-shadow: 15px 0px 0px 0px rgb(8, 124, 150) inset
+}
+#left-side-capture-button-container{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(9, 187, 226);
+    display: flex;
+    justify-content: center;
+}
+#left-side-capture-button{
+    width: 40%;
+    height: 30%;
+    background-color: black;
+    border-radius: 10%;
+    margin-left: 3%;
+    margin-right: 30% ;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: -1px 1px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+}
+
+#left-side-capture-button-inside{
+    width: 80%;
+    height: 75%;
+    border-radius: 100%;
+    background-color: rgb(30, 30, 29);
+    border: 1.5px solid rgb(131, 125, 125);
+    
+}
+/* MANDO IZQUIERDO - BOTTOM */
+#left-side-bottom{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#left-side-bottom-rounded{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(9, 187, 226);
+    border-radius: 0% 0% 0% 70%;
+    box-shadow: 15px 0px 0px 0px rgb(8, 124, 150) inset;
+}
+
+#left-side-bottom-corner{
+    height: 100%;
+    width: 50%;
+    background-color: rgb(9, 187, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PANTALLA*/
+#screen{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+ }
+
+/* PANTALLA- Márgenes con hueco*/
+
+.screen-margin{
+    width: 5%;
+    height:100%;
+    background-color: rgb(25, 27, 27);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px -7px 4px -3px rgb(121, 120, 120) inset;
+}
+
+.screen-margin-hole-container{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(25, 27, 27);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 8px 4px -3px rgb(121, 120, 120) inset;
+}
+
+#screen-margin-left-hole{
+    width: 60%;
+    height: 100%;
+    border-radius:0 0 40px 0;
+    background-color:rgb(173, 81, 219);
+    position:relative;    
+    color:#FFF;
+}
+
+#screen-margin-right-hole{
+    width: 60%;
+    height: 100%;
+    border-radius:0 0 0 40px;
+    background-color:rgb(130, 125, 225);
+    position:relative;    
+    color:#FFF;
+    margin-left: 40%;
+}
+
+/* PANTALLA- Parte táctil*/
+
+#screen-tactil{
+    width: 90%;
+    height:100%;
+    background-color: rgb(25, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 4px -3px rgb(121, 120, 120) inset, 0px -7px 4px -3px rgb(121, 120, 120) inset;
+}
+
+#screen-tactil-frame{
+    width: 100%;
+    height: 94%;
+    background-color: black;
+    border-radius: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        /* From https://css.glass */
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(61, 58, 58, 0.1);
+        backdrop-filter: blur(5.1px);
+        -webkit-backdrop-filter: blur(5.1px);
+        border: 1px solid rgba(97, 91, 91, 0.39);
+}
+
+#screen-tactil-glass{
+    width: 85%;
+    height: 88%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(58, 5, 5) , rgb(211, 113, 8));
+    border-radius: 1%;
+        /* From https://css.glass */
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(4.5px);
+        -webkit-backdrop-filter: blur(4.5px);
+        border: 1px solid rgba(255, 245, 245, 0.39);
+}
+
+img{
+    width: 99%;
+    height: 99%;
+}
+
+ /* MANDO DERECHO*/
+ #right-side{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+
+/* MANDO DERECHO- START*/
+
+#right-side-start{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+#right-side-corner-top{
+    height: 100%;
+    width: 60%;
+    background-color: rgb(255, 93, 81);
+    border-radius: 0% 70% 0% 0%;
+    box-shadow: -15px 0px 0px 0px rgb(233, 42, 29) inset, 10px -9px 0px -6px rgb(62, 60, 60);
+}
+#right-side-start-button-container{
+    height: 100%;
+    width: 40%;
+    background-color:  rgb(255, 93, 81);
+    display: flex;
+    justify-content: center;
+    border-radius: 5px 0px 0px 0px;
+}
+
+
+
+#right-side-start-button{
+    width: 35%;
+    height: 8%;
+    background-color: black;
+    border-radius: 10%;
+    margin-right: 30%;
+    margin-top: 30%;
+    box-shadow: 2px 1px 0px rgba(0, 0, 0, 0.383), 1px 1px 2px 1px inset rgb(97, 93, 93);
+    
+}
+/* MANDO DERECHO- CRUCETA */
+
+#right-side-cross-container{
+    height: 20%;
+    width: 100%;
+    background-color:  rgb(255, 93, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -15px 0px 0px 0px rgb(233, 42, 29) inset
+}
+#right-side-cross-spec{
+    height: 100%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#right-cross-top-container{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#right-cross-top-left{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+#right-cross-top-mid{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#right-cross-top-mid-button{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: black;
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 151, 155);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+#right-cross-top-right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+/* MANDO DERECHO - CRUCETA- botones medio */
+
+#right-cross-mid-container{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#right-cross-mid-left{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-cross-mid-left-button-left{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: black;
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 151, 155);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+#right-cross-mid-mid{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-cross-mid-right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-cross-mid-left-button-right{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: black;
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 151, 155);
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+/* MANDO DERECHO - CRUCETA- botones abajo */
+
+#right-cross-bot-container{
+    height: 33%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#right-cross-bot-left{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+#right-cross-bot-mid{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right-cross-bot-mid-button{
+    height: 90%;
+    width: 90%;
+    border-radius: 100%;
+    background-color: black;
+    box-shadow: 2px 3px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(146, 151, 155);
+    font-family: sans-serif;
+    font-weight: lighter;
+    
+}
+
+#right-cross-bot-right{
+    width: 33%;
+    height: 100%;
+    display: flex;
+}
+
+/* MANDO DERECHO - JOYSTICK */
+#right-side-joystick-container{
+    height: 20%;
+    width: 100%;
+    background-color:  rgb(255, 93, 81);
+    display: flex;
+    justify-content: center;
+    box-shadow: -15px 0px 0px 0px rgb(233, 42, 29) inset
+}
+#right-side-joystick-spec{
+    height: 70%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+#right-side-joystick{
+    height: 95%;
+    width: 95%;
+    border-radius: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 4px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(97, 93, 93);
+}
+#right-side-joystick-mark{
+    height: 75%;
+    width: 75%;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid rgb(102, 94, 94);
+}
+
+/* MANDO DERECHO - HOME */
+#right-side-home{
+    height: 20%;
+    width: 100%;
+    display: flex;
+}
+
+#right-side-home-right{
+    height: 100%;
+    width: 60%;
+    background-color:  rgb(255, 93, 81);
+    box-shadow: -15px 0px 0px 0px rgb(233, 42, 29) inset
+}
+#right-side-home-button-container{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(255, 93, 81);
+    display: flex;
+    justify-content: center;
+    
+}
+#right-side-home-button{
+    width: 40%;
+    height: 30%;
+    background-color: black;
+    border-radius: 100%;
+    margin-left: 25%;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 2px 0px rgba(0, 0, 0, 0.383),2px 1px 2px 1px inset rgb(28, 27, 27);
+    
+}
+
+#right-side-home-button-inside{
+    width: 80%;
+    height: 75%;
+    background-color: rgb(61, 56, 56);
+    border-radius: 100%;
+    border: 1px solid rgb(49, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* MANDO DERECHO - BOTTOM */
+#right-side-bottom{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+#right-side-bottom-rounded{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(255, 93, 81);
+    border-radius: 0% 0% 70% 0%;
+    box-shadow: -15px 0px 0px 0px rgb(233, 42, 29) inset
+}
+
+#right-side-bottom-corner{
+    height: 100%;
+    width: 50%;
+    background-color:  rgb(255, 93, 81);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
